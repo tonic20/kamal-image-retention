@@ -7,7 +7,7 @@ module KamalImageRetention
       config_file = "config/deploy.yml"
       apply = false
       OptionParser.new do |opts|
-        opts.banner = "Usage: bin/retain-images [-d destination] [-c config_file] [--apply]"
+        opts.banner = "Usage: kamal-retain-images [-d destination] [-c config_file] [--apply]"
         opts.on("-d DESTINATION") { |value| destination = value }
         opts.on("-c FILE") { |value| config_file = value }
         opts.on("--apply") { apply = true }

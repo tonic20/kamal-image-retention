@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Show the installed command name in `kamal-retain-images --help`.
 - Added the MIT license and changelog to the gem package.
 
 ## 0.1.1 — 2026-11-10

@@ -12,7 +12,7 @@ and declares a dependency on Kamal `~> 2.12`.
 
 ```ruby
 group :deploy, optional: true do
-  gem "kamal-image-retention", github: "tonic20/kamal-image-retention", tag: "v0.1.0", require: false
+  gem "kamal-image-retention", "~> 0.1.1", require: false
 end
 ```
 

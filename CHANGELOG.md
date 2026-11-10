@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## 0.1.2 — 2026-11-10
 
+- Point the gem homepage to the introductory blog post, keeping source code and changelog links on GitHub.
 - Show the installed command name in `kamal-retain-images --help`.
 - Added the MIT license and changelog to the gem package.
 

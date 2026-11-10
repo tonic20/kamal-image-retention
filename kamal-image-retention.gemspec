@@ -1,13 +1,14 @@
 Gem::Specification.new do |spec|
   spec.name = "kamal-image-retention"
-  spec.version = "0.1.1"
+  spec.version = "0.1.2"
   spec.summary = "Retain recent Kamal builds on the build machine and in a private Distribution registry"
   spec.authors = ["Anton Kopylov"]
-  spec.homepage = "https://github.com/tonic20/kamal-image-retention"
+  spec.homepage = "https://www.kopylov.net/blog/kamal-image-retention-cleaning-up-after-deploys.html"
   spec.license = "MIT"
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
-  spec.metadata["source_code_uri"] = spec.homepage
-  spec.metadata["changelog_uri"] = "#{spec.homepage}/blob/main/CHANGELOG.md"
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/tonic20/kamal-image-retention"
+  spec.metadata["changelog_uri"] = "https://github.com/tonic20/kamal-image-retention/blob/main/CHANGELOG.md"
   spec.required_ruby_version = ">= 3.2"
   spec.files = Dir["lib/**/*.rb", "exe/*", "README.md", "LICENSE.txt", "CHANGELOG.md"]
   spec.bindir = "exe"

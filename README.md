@@ -106,6 +106,14 @@ bundle install
 bundle exec ruby -Ilib test/retention_test.rb
 ```
 
+## Changelog
+
+See the [release history](CHANGELOG.md).
+
+## License
+
+[MIT License](LICENSE.txt)
+
 ## Author
 
 Built by [Anton Kopylov](https://www.kopylov.net).
